@@ -13,7 +13,7 @@
 - pvs , 用来打开文件夹下的解决方案
 - pcmd , 用来执行确定的解决方案
 - gitvv , 用来执行git remote -v 命令
-
+- pcode , 用VS Code 打开文件夹
 
 ### 如何使用 1 
 
