@@ -39,7 +39,11 @@ function FindProject ([string] $proj) {
     }
     $project
 }
-
+function pcode ([string] $proj) {
+    $p = FindProject($proj)
+    $p
+    code  $p.Path 
+}
 function pcd ([string] $proj) {
     $p = FindProject($proj)
     Set-Location  $p.Path
